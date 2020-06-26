@@ -2,11 +2,11 @@ def oxford_comma(array)
   def oxford_comma array
     if array.length==1 
         puts array[0]
-    else 
+    elsif 
         last=array[array.length-1] 
         array.pop 
         string=array.join(', ')
-        if array.length==1
+        elsif array.length==1
             string.concat(" and ")
         else
             string.concat(", and ")
