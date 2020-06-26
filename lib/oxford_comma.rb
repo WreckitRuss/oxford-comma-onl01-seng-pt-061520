@@ -6,7 +6,7 @@ def oxford_comma(array)
         last=array[array.length-1] 
         array.pop 
         string=array.join(', ')
-        elsif array.length==1
+        else array.length==1
             string.concat(" and ")
         else
             string.concat(", and ")
