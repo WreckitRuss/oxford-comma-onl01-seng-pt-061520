@@ -12,7 +12,7 @@ def oxford_comma(array)
             string.concat(", and ")
         end
         string.concat(last)
-        puts string 
+        return string 
     end
 end
 
